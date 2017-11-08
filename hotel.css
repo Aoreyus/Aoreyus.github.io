@@ -1,0 +1,133 @@
+body{
+  background-image:url(cold-space-kenneth-jensen-hd-wallpaper.jpg);
+  background-size:cover;
+}
+table{
+  border-collapse:collapse;
+  background-color:rgba(0, 0, 0,0.5);
+}
+
+th, td {
+  width: 45%;
+  text-align: left;
+
+}
+#roomOne{
+   border-width:1px;
+   width:20%;
+    border-color:#00FFFF;
+    border-style:solid;
+    background-color:rgba(0, 0, 0,0.75);
+  float:left;
+  position:relative;
+  margin-top: 100px;
+  margin-right:40px;
+  margin-left:40px;
+
+}
+#roomTwo{
+  border-width:1px;
+     width:20%;
+    border-color:#00FFFF;
+    border-style:solid;
+    background-color:rgba(0, 0, 0,0.75);
+  float:left;
+   position:relative;
+   margin-top: 100px;
+   margin-right:40px;
+}
+#roomThree{
+   border-width:1px;
+      width:20%;
+    border-color:#00FFFF;
+    border-style:solid;
+    background-color:rgba(0, 0, 0,0.75);
+  float:left;
+   position:relative;
+   margin-top: 100px;
+   margin-right:40px;
+
+}
+#roomFour{
+   border-width:1px;
+      width:20%;
+    border-color:#00FFFF;
+    border-style:solid;
+    background-color:rgba(0, 0, 0,0.75);
+  float:left;
+   position:relative;
+   margin-top: 100px;
+   margin-right:40px;
+}
+.scolor{
+  color:skyblue;
+  text-align:center;
+}
+.Rom4{
+  color:skyblue;
+}
+.Rom3{
+  color:skyblue;
+}
+
+.Rom2{
+  color:skyblue;
+}
+
+.Rom1{
+  color:skyblue;
+}
+#title{
+  text-align:center;
+  color:skyblue;
+  font-family:Impact;
+  font-style:italic;
+}
+#roomOne:hover{
+background-color:rgba(51,204,255,0.10);
+}
+#roomTwo:hover{
+background-color:rgba(0, 0, 0,0.25);
+}
+#roomThree:hover{
+background-color:rgba(0, 0, 0,0.40);
+}
+#roomFour:hover{
+background-color:rgba(0, 0, 0,0.25);
+}
+#tdcolor{
+  color:skyblue;
+}
+
+.button {
+    background-color:black;
+    border: none;
+    color: skyblue;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+
+}
+
+#title2{
+  font-size:40px;
+  color:skyblue;
+  text-align:center;
+}
+.rediv{
+    border-width:1px;
+     width:20%;
+    border-color:#00FFFF;
+    border-style:solid;
+    background-color:rgba(239, 4, 4,0.75);
+  float:left;
+   position:relative;
+   margin-top: 100px;
+   margin-right:40px;
+}
+
+
+
+

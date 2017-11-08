@@ -1,0 +1,24 @@
+body{
+  background-image:url(https://img00.deviantart.net/79e6/i/2011/089/d/7/wallpaper___the_heat_of_love_by_gucken-d1e3f7m.jpg);
+  background-size:cover;
+}
+
+th, td {
+  width: 25%;
+  text-align: left;
+}
+#desc{
+  font-size:20px;
+  color:skyblue;
+
+}
+#title{
+  font-size:40px;
+  color:skyblue;
+  text-align:center;
+}
+#div{
+	height:100%;
+	width:100%;
+	background-color:black;
+}

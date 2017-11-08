@@ -1,0 +1,306 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="hotel.css" type="text/css">
+  </head>
+<body>
+  <h1 id="title">Aorayus Space Hotel</h1>
+<center>
+<table valign="center" width="100%" bgcolor="#00FFFF">
+  
+  <tr>
+    <td id="tdcolor"><a href="Hotel F8.html">Home</a></td>
+    <td><a href="https://naturependant.com">Souvenir</a></td>
+    <td><a href="Our Story.html">Our Story</a></td>
+    
+  </tr>
+    
+  
+</table>
+</center>
+<div id="roomOne">
+      <h1 class ="scolor">Room One</h1>
+      <p id="statement1" class="scolor">Unfortunately this room is full, please wait for the next availble spot</p>
+
+  <script>
+  
+function actad1(event) {
+    if(window.event.keyCode == 13)  {
+    addGuest();
+    }
+  }
+    document.getElementById('statement1').style.display="none";
+      I=0;
+      II=0;
+      III=0;
+      IV=0;
+    function addGuest(){
+      if(I<3){
+      var  x = document.createElement('li');
+      var DT= new Date().toUTCString();
+      var y = document.createTextNode(A.value +" "+ DT);
+      x.appendChild(y);
+      var add = document.querySelectorAll('ol.Rom1')[0];
+      add.appendChild(x);
+      I++;
+      document.getElementById('A').value="";
+      x.onclick=function(){
+        this.parentNode.removeChild(this);
+        I--;
+        document.getElementById('statement1').style.display="none";
+      }
+    }
+      else{
+     document.getElementById('statement1').style.display="block";
+      }
+    }
+    function removeOne(){
+      if(I>0 && I<=3){
+      var a= (document.getElementById('B').value - 1);
+      var remove1 = document.getElementById('Roe1');
+      var getRidof1 = remove1.getElementsByTagName('li')[a];
+      var number1 = getRidof1.parentNode;
+      number1.removeChild(getRidof1);
+      I--;
+    document.getElementById('statement1').style.display="none";
+    document.getElementById('B').value="";
+    }
+    else{
+      return false;
+    }
+    }
+    
+  </script>
+  <input type="text" id='A' onkeypress="actad1(event)">
+  <button onclick="addGuest()" class="button">Check in</button>
+  <br>
+  <br>
+  <input type="number" id='B'>
+  <button onclick= "removeOne()" class="button">Check out</button>
+<ol class="Rom1" id="Roe1"></ol>
+</div>
+
+
+
+
+
+
+
+<div id="roomTwo">
+      <h1 class="scolor">Room Two</h1>
+      <p id="statement2" class="scolor">Unfortunately this room is full, please wait for the next availble spot</p>
+  <script>
+    function actad2(event) {
+    if(window.event.keyCode == 13)  {
+    addGuest2();
+    }
+  }
+     document.getElementById('statement2').style.display="none"
+    function addGuest2(){
+      if(II<3){
+      var x = document.createElement('li');
+      var DT= new Date().toUTCString();
+      var y = document.createTextNode(C.value +" "+ DT);
+      x.appendChild(y);
+      var add = document.querySelectorAll('ol.Rom2')[0];
+      add.appendChild(x);
+      II++;
+      document.getElementById('C').value="";
+        x.onclick=function(){
+        this.parentNode.removeChild(this);
+        II--;
+        document.getElementById('statement2').style.display="none";
+      }
+
+        }
+        else{
+  document.getElementById('statement2').style.display="block"
+        }
+
+    }
+    function removeOne2(){
+      if(II>0 && II<=3){
+      var b= (document.getElementById('D').value - 1);
+      var remove2 = document.getElementById('Roe2');
+      var getRidof2 = remove2.getElementsByTagName('li')[b];
+      var number2 = getRidof2.parentNode;
+      number2.removeChild(getRidof2);
+      II--;
+      document.getElementById('statement2').style.display="none"
+      document.getElementById('D').value="";
+    }
+    else{
+      return false;
+    }
+    }
+    
+  </script>
+  <input type="text" id='C' onkeypress="actad2(event)">
+  <button onclick="addGuest2()" class="button">Check in</button>
+ <br>
+  <br>
+  <input type="number" id='D'>
+  <button onclick= "removeOne2()" class="button">Check out</button>
+<ol class="Rom2" id="Roe2"></ol>
+</div>
+
+
+
+
+<div id="roomThree">
+      <h1 class="scolor">Room Three</h1>
+      <p id="statement3" class="scolor">Unfortunately this room is full, please wait for the next availble spot</p>
+  <script>
+    function actad3(event) {
+    if(window.event.keyCode == 13)  {
+    addGuest3();
+    }
+  }
+    document.getElementById('statement3').style.display="none" 
+    function addGuest3(){
+      if(III<3){
+      var  x = document.createElement('li');
+      var DT= new Date().toUTCString();
+      var y = document.createTextNode(K.value +" "+ DT);
+      x.appendChild(y);
+      var add = document.querySelectorAll('ol.Rom3')[0];
+      add.appendChild(x);
+      III++;
+      document.getElementById('K').value="";
+        x.onclick=function(){
+        this.parentNode.removeChild(this);
+        III--;
+        document.getElementById('statement3').style.display="none";
+      }
+      }
+      else{
+     document.getElementById('statement3').style.display="block"
+      }
+    }
+    function removeOne3(){
+      if(III>0 && III<=3){
+      var c= (document.getElementById('F').value - 1);
+      var remove3 = document.getElementById('Roe3');
+      var getRidof3 = remove3.getElementsByTagName('li')[c];
+      var number3 = getRidof3.parentNode;
+      number3.removeChild(getRidof3);
+      III--;
+   document.getElementById('statement3').style.display="none"
+  document.getElementById('F').value="";
+    }
+    else{
+      return false;
+    }
+    }
+    
+  </script>
+  <input type="text" id='K' onkeypress="actad3(event)">
+  <button onclick="addGuest3()" class="button">Check in</button>
+<br>
+  <br>
+  <input type="number" id='F'>
+  <button onclick= "removeOne3()" class="button">Check out</button>
+<ol class="Rom3" id="Roe3"></ol>
+</div>
+
+
+
+
+
+
+
+<div id="roomFour">
+      <h1 class="scolor">Room Four</h1>
+      <p id="statement4" class="scolor">Unfortunately this room is full, please wait for the next availble spot</p>
+  <script>
+    function actad4(event) {
+    if(window.event.keyCode == 13)  {
+    addGuest4();
+    }
+  }
+    document.getElementById('statement4').style.display="none"
+    function addGuest4(){
+      if(IV<3){
+      var  x = document.createElement('li');
+      var DT= new Date().toUTCString();
+      var y = document.createTextNode(P.value +" "+ DT);
+      x.appendChild(y);
+      var add = document.querySelectorAll('ol.Rom4')[0];
+      add.appendChild(x);
+      IV++;
+       document.getElementById('P').value="";
+         x.onclick=function(){
+        this.parentNode.removeChild(this);
+        IV--;
+        document.getElementById('statement4').style.display="none";
+      }
+
+      }
+      else{
+        document.getElementById('statement4').style.display="block"
+     }
+    }
+    function removeOne4(){
+      if(IV>0 && IV<=3){
+      var d= (document.getElementById('O').value - 1);
+      var remove4 = document.getElementById('Roe4');
+      var getRidof4 = remove4.getElementsByTagName('li')[d];
+      var number4 = getRidof4.parentNode;
+      number4.removeChild(getRidof4);
+      IV--;
+    document.getElementById('statement4').style.display="none"
+    document.getElementById('O').value="";
+    }
+    else{
+      return false;
+    }
+    }
+    
+  </script>
+  <input type="text" id='P'onkeypress="actad4(event)">
+  <button onclick="addGuest4()" class="button">Check in</button>
+  <br>
+  <br>
+  <input type="number" id='O'>
+  <button onclick= "removeOne4()" class="button">Check out</button>
+<ol class="Rom4" id="Roe4"></ol>
+</div>
+
+
+<div>
+  
+
+
+
+
+  
+</div<>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
