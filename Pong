@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Pong</title>
+		<script type="text/javascript" src= "phaser.min.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		var game= new Phaser.Game(800,600.AUTO,'',{preload:preload, create:create ,updade:updade});
+		function preload(){
+
+		}
+		function create(){
+			
+		}
+		function update(){
+
+		}
+
+
+	</script>
+
+</body>
+</html>
